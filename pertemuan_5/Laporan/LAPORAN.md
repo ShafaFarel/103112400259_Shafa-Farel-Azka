@@ -927,7 +927,7 @@ int main() {
 }
 ```
 ### Output Unguided 1 :
-![](tugas1.png)
+![](foto/tugas1.png)
 Program dimulai dengan membentuk linked list dari beberapa nilai yang sudah terurut, kemudian menggunakan fungsi getMiddle() untuk mencari elemen tengah dari daftar tersebut melalui metode slow-fast pointer. Fungsi binarySearch() kemudian membandingkan nilai tengah dengan data yang dicari (key) dan menentukan apakah pencarian dilanjutkan ke bagian kiri atau kanan list, mirip seperti binary search pada array. Setiap langkah pencarian ditampilkan di layar agar proses dapat dipantau. Hasil akhir menunjukkan apakah nilai yang dicari ditemukan atau tidak dalam linked list.
 
 ### 2. Tugas 2
@@ -1029,7 +1029,7 @@ int main() {
 }
 ```
 ### Output Unguided 2 :
-![](tugas2.png)
+![](foto/tugas2.png)
 Terdapat fungsi append() yang digunakan untuk menambahkan elemen baru di akhir list, sedangkan printList() digunakan untuk menampilkan seluruh isi linked list dalam urutan. Proses pencarian dilakukan melalui fungsi linearSearch(), yaitu memeriksa setiap node secara berurutan mulai dari kepala list hingga node terakhir untuk mencari nilai yang sesuai dengan key. Jika data ditemukan, maka akan menampilkan alamat node, nilai data, serta node berikutnya. Jika tidak ditemukan, akan memberikan pesan bahwa nilai tidak ada dalam list. Pada fungsi main(), program membuat linked list dengan elemen 10, 20, 30, 40, dan 50, terus melakukan pencarian untuk nilai 30 (ditemukan) dan 25 (tidak ditemukan).
 ## Kesimpulan
 Penerapan Linear Search dan Binary Search pada linked list menunjukkan perbedaan saat pencarian. Linear Search mudah diterapkan karena tidak membutuhkan data terurut, namun kurang efisien pada data berukuran besar, sedangkan Binary Search lebih cepat tetapi hanya dapat digunakan pada linked list yang telah terurut.
