@@ -1379,7 +1379,7 @@ int main() {
 }
 ```
 ### Output Soal 1 :
-![](foto/output1.png)
+![](output1.png)
 Program ini merupakan implementasi dari struktur data Doubly Linked List yang digunakan untuk menyimpan data kendaraan, seperti nomor polisi, warna, dan tahun pembuatan. Program dibagi menjadi tiga file yaitu DoublyList.h untuk mendefinisikan struktur data, DoublyList.cpp untuk mengisi logika fungsi seperti membuat list, menambah data, dan menampilkan isi list, serta main.cpp untuk menjalankan proses input dan output. Pengguna dapat memasukkan maksimal tiga data kendaraan, dan sistem akan menolak jika ada nomor polisi yang sama sudah terdaftar. Setelah semua data dimasukkan, program menampilkan seluruh daftar kendaraan yang sudah tersimpan di dalam list.
 
 ### 2. Perintah 2
@@ -1443,7 +1443,7 @@ Pada main.cpp
 
 
 ### Output Perintah 2 :
-![](foto/output2.png)
+![](output2.png)
 
 ### 3. Perintah 3
 Untuk bisa menghapus, menambahkan beberapa perintah yaitu:
