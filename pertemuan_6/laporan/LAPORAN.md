@@ -1379,7 +1379,7 @@ int main() {
 }
 ```
 ### Output Soal 1 :
-![](output1.png)
+![](foto/output1.png)
 Program ini merupakan implementasi dari struktur data Doubly Linked List yang digunakan untuk menyimpan data kendaraan, seperti nomor polisi, warna, dan tahun pembuatan. Program dibagi menjadi tiga file yaitu DoublyList.h untuk mendefinisikan struktur data, DoublyList.cpp untuk mengisi logika fungsi seperti membuat list, menambah data, dan menampilkan isi list, serta main.cpp untuk menjalankan proses input dan output. Pengguna dapat memasukkan maksimal tiga data kendaraan, dan sistem akan menolak jika ada nomor polisi yang sama sudah terdaftar. Setelah semua data dimasukkan, program menampilkan seluruh daftar kendaraan yang sudah tersimpan di dalam list.
 
 ### 2. Perintah 2
@@ -1443,7 +1443,7 @@ Pada main.cpp
 
 
 ### Output Perintah 2 :
-![](output2.png)
+![](foto/output2.png)
 
 ### 3. Perintah 3
 Untuk bisa menghapus, menambahkan beberapa perintah yaitu:
@@ -1534,7 +1534,7 @@ pada main.cpp
     printInfo(L);
 ```
 ### Output Unguided 3 :
-![](output3.png)
+![](foto/output3.png)
 Menambahkan bagian kode diatas supaya program bisa menghapus data kendaraan berdasarkan nomor polisi tertentu. Karena posisi data yang akan dihapus bisa berada di awal, tengah, atau akhir list, maka dibuat tiga prosedur yaitu deleteFirst, deleteLast, dan deleteAfter. Ketiganya berfungsi menjaga agar hubungan antar node tetap rapi setelah penghapusan dilakukan. Sedangkan bagian tambahan di main.cpp dipakai untuk meminta input nomor polisi yang ingin dihapus, mencari posisinya di list, lalu memanggil prosedur yang sesuai agar data tersebut bisa dihapus dengan aman dan list tetap tersusun dengan benar.
 ## Kesimpulan
 Kesimpulannya, doubly linked list adalah struktur data yang memungkinkan setiap elemen terhubung dua arah, yaitu ke elemen sebelumnya dan berikutnya. Pasti hal ini memudahkan proses manipulasi data seperti penambahan, pencarian, maupun penghapusan elemen tanpa harus menggeser seluruh data. 
