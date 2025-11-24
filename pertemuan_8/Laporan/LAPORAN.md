@@ -542,7 +542,7 @@ void printInfo(Queue Q) {
 ```
 Program ini merupakan implementasi Queue Alternatif 3, yaitu queue berbasis array circular yang memungkinkan antrean berputar sehingga ruang array dapat digunakan sepenuhnya tanpa perlu menggeser elemen saat dequeue. Struktur queue menggunakan indeks head dan tail yang akan bergerak secara melingkar dengan operasi modulo. Fungsi enqueue menambahkan data pada posisi tail dan memutarnya jika mencapai batas array, sedangkan dequeue menghapus data pada posisi head dengan cara yang sama. Kondisi penuh ditentukan ketika posisi tail yang sudah ditambah satu bertemu kembali dengan head, menunjukkan queue tidak dapat menampung data lagi. Fungsi printInfo menampilkan semua elemen queue dengan cara iterasi circular hingga mencapai posisi tail. Implementasi ini jauh lebih efisien daripada queue linear karena tidak melakukan shifting.
 ### Output 3 Program:
-![](output1.png)
+![](foto/output1.png)
 ## Kesimpulan
 Pada modul ini mengimplementasikan struktur data Queue dalam berbagai bentuk, yaitu queue berbasis linked list, queue berbasis array linear, serta queue berbasis array circular. Melalui guided dan unguided, mahasiswa memahami cara kerja operasi queue seperti enqueue, dequeue, update, search, dan penampilan data. Setiap pendekatan memiliki karakteristik tersendiri linked list memberikan fleksibilitas tanpa batas kapasitas, array linear mudah dipahami namun kurang efisien pada operasi dequeue, sedangkan array circular mampu memanfaatkan ruang dengan optimal tanpa perlu shifting elemen. Secara keseluruhan, praktikum ini membantu memperkuat pemahaman mengenai konsep FIFO (First In First Out), perbedaan implementasi struktur queue, serta bagaimana memilih metode yang paling sesuai dengan kebutuhan program.
 
