@@ -401,13 +401,13 @@ int main(){
 ```
 ## Output
 ### a. Soal 1
-![](output_1.png)
+![](foto/output_1.png)
 Pada soal satu, dibuat sebuah program untuk merepresentasikan graf tidak berarah sesuai gambar yang diberikan menggunakan struktur node dan list. Program harus mampu menambahkan simpul dan sisi sehingga setiap hubungan antar node direpresentasikan dua arah karena graf tidak berarah.
 ### b. Soal 2
-![](output_2.png)
+![](foto/output_2.png)
 Pada soal kedua, program pada soal pertama dilengkapi dengan fitur penelusuran graf menggunakan algoritma Depth First Search (DFS). Penambahan ini dilakukan dengan membuat prosedur atau fungsi DFS yang menelusuri simpul mulai dari node awal dan memanfaatkan struktur rekursi agar program dapat bergerak ke simpul berikutnya sampai semua tetangga dikunjungi. Hasil penelusuran kemudian ditampilkan sesuai urutan kunjungan simpul. Dengan demikian, soal kedua berfokus pada implementasi dan output penelusuran DFS berdasarkan graf tidak berarah yang telah dibangun pada soal pertama.
 ### c. Soal 3
-![](output_3.png)
+![](foto/output_3.png)
 Pada soal ketiga, program dari soal sebelumnya kembali dikembangkan dengan menambahkan prosedur penelusuran Breadth First Search (BFS). BFS dilakukan dengan menggunakan struktur antrian (queue) untuk mengunjungi simpul secara bertahap dari tingkat terdekat ke tingkat berikutnya. Prosedur PrintBFS menerima parameter graf dan node awal, lalu menampilkan urutan simpul sesuai proses penelusuran BFS. Dengan demikian, soal ketiga melengkapi sistem graf tidak berarah dengan kemampuan menampilkan hasil penelusuran BFS setelah sebelumnya menampilkan DFS.
 ## Kesimpulan
 Berdasarkan praktikum pada modul graf ini, dapat disimpulkan bahwa struktur data graf dapat direpresentasikan dengan menggunakan linked list untuk menyimpan node dan edge. Dari implementasi program, telah dilakukan penambahan node dan hubungan antar node sesuai graf tidak berarah yang diberikan. Program kemudian dikembangkan dengan menambahkan algoritma penelusuran Depth First Search (DFS) dan Breadth First Search (BFS) untuk menelusuri graf berdasarkan simpul awal. Melalui pengujian terhadap kedua algoritma, dapat dilihat perbedaan urutan penelusuran yang dihasilkan dimana DFS menelusuri simpul lebih dalam terlebih dahulu, sedangkan BFS menelusuri per tingkat secara berlapis. Dengan demikian, praktikum ini memberikan pemahaman pada implementasi graf dan pemanfaatan algoritma penelusuran dalam pemrograman.
